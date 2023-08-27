@@ -13,6 +13,7 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
+![image](https://github.com/Meenakshi0907/nn-classification/assets/94165108/e7c8b98f-9066-4cde-a905-520f15f83de0)
 
 ## DESIGN STEPS
 
@@ -57,6 +58,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv("/content/customers.csv")
+df
 
 df.columns
 df.dtypes
